@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Javascript Calculator</title>
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+
+</head>
+<body>
+  <div class="container text-center">
+    <h1 id="page_title">JavaScript Calculator</h1>
+    <hr class="custom_hr" width="50px;">
+
+    <div id="main_calc">
+      <button id="del" style="float: left" class="btn text-center">DEL</button>
+      <div id="screen_calc" class="text-right">000000000000</div>
+      <br style="clear: both"> 
+      <div class="row">
+        <button value="7" class="btn" onclick="result('7')">7</button>
+        <button value="8" class="btn" onclick="result('8')">8</button>
+        <button value="9" class="btn" onclick="result('9')">9</button>
+        <button value="/" class="btn" onclick="result('/')">/</button>
+      </div>
+
+      <div class="row">
+        <button value="4" class="btn" onclick="result('4')">4</button>
+        <button value="5" class="btn" onclick="result('5')">5</button>
+        <button value="6" class="btn" onclick="result('6')">6</button>
+        <button value="*" class="btn" onclick="result('*')">x</button>
+      </div>
+
+
+      <div class="row">
+        <button value="1" class="btn" onclick="result('1')">1</button>
+        <button value="2" class="btn" onclick="result('2')">2</button>
+        <button value="3" class="btn" onclick="result('3')">3</button>
+        <button value="-" class="btn" onclick="result('-')">-</button>
+      </div>
+    
+
+      <div class="row">
+        <button value="." class="btn" onclick="result('.')"><b>.</b></button>
+        <button value="0" class="btn" onclick="result('0')">0</button>
+        <button value="=" class="btn" onclick="result('=')">=</button>
+        <button value="+" class="btn" onclick="result('+')">+</button>
+      </div>
+    </div>
+  
+
+    <div>
+      <p style="color: white" class="text-center">Created by <i>ashcyber</i></p>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
