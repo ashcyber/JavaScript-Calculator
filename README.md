@@ -1,2 +1,2 @@
-# JavaScrip Calculator
+# JavaScript Calculator
 Calculator made using JavaScript
